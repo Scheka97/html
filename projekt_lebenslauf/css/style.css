@@ -1,0 +1,27 @@
+.querlinie1 {width: 79vh;
+    margin-left: 5vh;height: 0.2em;
+    background-color: black;border: none; }
+
+.querlinie2 {width: 100vh;margin-left: 20vh;
+    height: 0.2em;background-color: black;
+    border: none;}
+
+
+#abstand { margin-top: 3cm; }
+
+h1 {font-size: 40px; margin-left: 5cm;}
+h2 {font-size: 55px; margin-left: 5cm;}
+h3 {font-size: 30px; margin-left: 5cm;}
+
+#absatz {margin-left: 6cm;}
+
+.rechts {float: right;margin-left: 10px; margin-right: 18cm;}
+
+.mitte {position: absolute;
+left: 600px;}
+
+#vorneda {margin-left: 12cm;margin-top: 6cm;}
+.vorneda {margin-left: 4cm;}
+
+#mail {color: coral;}
+#ueberschrieft {color:crimson ;}

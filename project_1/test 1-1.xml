@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<krankenhaus>
+<name>Vilpiusklink</name>
+<patient>
+    <name>Paul, Kalupke</name>
+    <temperatur>42</temperatur>
+    <zimmer>25</zimmer>
+</patient>
+
+<patient>
+    <name>Chuck, Norris</name>
+    <temperatur>9000</temperatur>
+    <zimmer>666</zimmer>
+</patient>
+
+<patient>
+    <name>Bruce, Willis</name>
+    <temperatur>36</temperatur>
+    <zimmer>99</zimmer>
+</patient>
+
+<patient>
+    <name>Dr. Loop</name>
+    <temperatur>38</temperatur>
+    <zimmer>38</zimmer>
+</patient>
+</krankenhaus>

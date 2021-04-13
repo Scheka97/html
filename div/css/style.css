@@ -1,0 +1,61 @@
+.body {
+    float: left;
+    height: 99vh;
+    width: 99vw;
+}
+.head {
+    float: left;
+    height: 15%;
+    width: 100%;
+    background-color: brown;
+}
+.menu {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: darkgray;
+    outline: solid;
+}
+.center {
+    float: left;
+    height: 75%;
+    width: 100%;
+    background-color: cyan;
+}
+.inhalt {
+    float: left;
+    height: 100%;
+    width: 70%;
+    background-color: darkmagenta;
+}
+.side {
+    float: left;
+    height: 100%;
+    width: 30%;
+    background-color: darkslateblue;
+}
+.ma {
+    float: left;
+    height: 50%;
+    width: 100%;
+    background-color: darkslateblue;
+    outline: solid;
+}
+.footer {
+    float: left;
+    height: 10%;
+    width: 100%;
+    background-color: lightgreen;
+}
+ 
+.menu {
+    float: left;
+    height: 100%;
+    width: 20%;
+    background-color: gray;
+    outline: 1px, solid, black;
+}
+ 
+p {
+    text-align: center;
+}

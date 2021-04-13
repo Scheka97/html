@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    float: left;
+}
+
+div {
+    border: thin solid gray;
+}
+
+/* Große Bildschirme */
+.col-1 {
+    width: 16.66666666666667%;
+    height: auto;
+}
+
+.col-2 {
+    width: 33.333333333333333%;
+    height: auto;
+}
+
+.col-3 {
+    width: 50%;
+    height: auto;
+}
+
+.col-4 {
+    width: 66.666666666666666%;
+    height: auto;
+}
+
+.col-5 {
+    width: 83.333333333333333%;
+    height: auto;
+}
+
+.col-6 {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    width: 95vw;
+    height: auto;
+}
+
+/* Mittlere Bildschirme */
+.col-1 {
+    width: 33.333333333333333%;
+    height: auto;
+}
+
+.col-2 {
+    width: 33.333333333333333%;
+    height: auto;
+}
+
+.col-3 {
+    width: 50%;
+    height: auto;
+}
+
+.col-4 {
+    width: 66.666666666666666%;
+    height: auto;
+}
+
+.col-5 {
+    width: 66.666666666666666%;
+    height: auto;
+}
+
+.col-6 {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    width: 95vw;
+    height: auto;
+}
+
+/* Schmale Bildschirme */
+/* Mobile First*/
+.col-1 {
+    width: 100%;
+    height: auto;
+}
+
+.col-2 {
+    width: 100%;
+    height: auto;
+}
+
+.col-3 {
+    width: 100%;
+    height: auto;
+}
+
+.col-4 {
+    width: 100%;
+    height: auto;
+}
+
+.col-5 {
+    width: 100%;
+    height: auto;
+}
+
+.col-6 {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    width: 95vw;
+    height: auto;
+}
+
+@media (min-width: 50em){
+    /* Mittlere Bildschirme */
+.col-1 {
+    width: 33.333333333333333%;
+    height: auto;
+}
+
+.col-2 {
+    width: 33.333333333333333%;
+    height: auto;
+}
+
+.col-3 {
+    width: 50%;
+    height: auto;
+}
+
+.col-4 {
+    width: 66.666666666666666%;
+    height: auto;
+}
+
+.col-5 {
+    width: 83.333333333333333%;
+    height: auto;
+}
+
+.col-6 {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    width: 95vw;
+    height: auto;
+}
+}
+
+@media (min-width: 80em){
+   /* Große Bildschirme */
+.col-1 {
+    width: 16.56666666666667%;
+    height: auto;
+}
+
+.col-2 {
+    width: 33.333333333333333%;
+    height: auto;
+}
+
+.col-3 {
+    width: 50%;
+    height: auto;
+}
+
+.col-4 {
+    width: 66.666666666666666%;
+    height: auto;
+}
+
+.col-5 {
+    width: 83.333333333333333%;
+    height: auto;
+}
+
+.col-6 {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    width: 95vw;
+    height: auto;
+} 
+}
+
+.button {
+    margin-left: 20%;
+    background-color:red;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .button2 {
+    margin-left: 0%;
+    background-color:red; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
