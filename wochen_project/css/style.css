@@ -9,16 +9,12 @@ di{
 
 .sound {
 
-   text-align: center;
-    color:white;
-
+  text-align: center;
+  color:white;
+  
 }
 
-.fixed-musik{
-  margin-left: 40%;
-  position: fixed;
  
-}
 
 
   /* Style the sidebar - fixed full height */
@@ -26,7 +22,7 @@ di{
     height: 100%;
     width: 160px;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     top: 0;
     left: 0;
     background-color: #111;
@@ -66,11 +62,21 @@ input[type="text"], input[type="password"] {
     cursor: pointer;
 }
 
-.container-xxl {
+.container-xl {
     background-color: rgba(204, 71, 38, 0.342);
     text-align: center;
 }
 
+
+
+.container-md{
+
+    text-align: center;
+    color: orange;
+    background-color: rgba(2, 2, 2, 0.589);
+  }
+
+  
 .container-sm {
     margin-top: 11%;
     background-color: rgba(204, 71, 38, 0.342);
@@ -96,12 +102,6 @@ input[type="text"], input[type="password"] {
   position: fixed;
 }
 
-.container-md{
-
-  text-align: center;
-  color: orange;
-  background-color: rgba(2, 2, 2, 0.589);
-}
 
 /* Diablo Schrieftart */
 @font-face {
@@ -125,7 +125,7 @@ input[type="text"], input[type="password"] {
 
 .items {
   font-family:'Diablo Heavy';
-  font-size: 20px;
+  
   color: white;
   text-align: center;
   
@@ -166,3 +166,305 @@ input[type="text"], input[type="password"] {
   width: 50%;
   height: auto;
 }
+
+/* ----------------------------------------------------------------------------- *
+ *                                Tabellen                                       *
+ * ----------------------------------------------------------------------------- */
+ .table_1 {
+  width: 100%;
+  padding-bottom: 1em;
+}
+.table_1 th {
+  font-weight: bold;
+  color: #F8CC35;
+}
+table.table_1 td, table.table_1 th {
+  border: 1px solid #28241D;
+  padding: 1px;
+}
+.row_titel_1 {
+  background-color: #000000;
+  height: 40px;
+  border: 1px solid #28241D;
+}
+.row_1 {
+  background-color: #12110f;
+  border: 1px solid #28241D;
+}
+.row_2 {
+  background-color: #171614;
+  border: 1px solid #28241D;
+}
+table.table_1 tr:nth-child(odd) {
+  background-color: #12110f;
+  border: 1px solid #28241D;
+}
+table.table_1 tr:nth-child(even) {
+  background-color: #171614;
+  border: 1px solid #28241D;
+}
+.column_1 {
+  border: 1px solid #28241D;
+}
+
+/* ----------------------------------------------------------------------------- *
+ *                             Media Queries                                     *
+ * ----------------------------------------------------------------------------- */
+ @media screen and (min-width: 0em) {
+  h1 {
+      font-size: 1.5em;
+      line-height: 1.2em;
+      margin: 1%;
+  }
+  h2 {
+      font-size: 1.2em;
+      line-height: 1.5em;
+      margin: 1%;
+  }
+  h3 {
+      font-size: 1.1em;
+      line-height: 1.3em;
+      margin: 1%;
+  }
+  h4 {
+      font-size: 1.05em;
+      line-height: 1.2em;
+      margin: 1%;
+  }
+  .network_wraper {
+      display: none;
+  }
+  .menu_desktop {
+      display: none;
+  }
+  blockquote {
+      margin: 1%;
+  }
+  #takeover {
+      margin: 0em auto;
+  }
+  p {
+      padding: 1%;
+  }
+  .content_header_autor_text {
+      padding-left: 1%;
+  }
+  .content_header_kommentar_text {
+      padding-right: 1%;
+  }
+  .table_1 {
+      font-size: 0.8em;
+      line-height: 1em;
+      padding: 0px;
+      margin: 0px;
+  }
+  table.table_1 td, table.table_1 th {
+      border: 1px solid #28241D;
+      padding: 0px;
+      font-size: 1em;
+      line-height: 1.2em;
+  }
+  .content_navi li {
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  .spalten_33 {
+      width: 100%;
+      padding: 0;
+      float: left;
+      box-sizing: border-box;
+      text-align: justify;
+  }
+  .spalten_33_rechts {
+      width: 100%;
+      padding: 0;
+      float: left;
+      box-sizing: border-box;
+      text-align: justify;
+  }
+  .spalten_33_titel {
+      font-size: 1.5em;
+      line-height: 1.2em;
+      margin: 0 0.5em;
+      font-family: 'Gentium Book Basic', serif;
+      color: #F8CC35;
+      text-align: left;
+  }
+  .spalten_33_werbung {
+      width: 100%;
+      min-height: 270px;
+      padding: 0;
+      float: left;
+      box-sizing: border-box;
+      text-align: center;
+  }
+  .spalten_66 {
+      width: 100%;
+      padding: 0;
+      float: left;
+      box-sizing: border-box;
+      text-align: justify;
+  }
+  .spalten_100 {
+      width: 100%;
+      padding: 0;
+      float: left;
+      box-sizing: border-box;
+      text-align: justify;
+  }
+  .mobile_hidden {
+      display: none;
+  }
+  .mobile_view {
+      display: block;
+      z-index: 999;
+  }
+  .tablet_hidden {
+      display: none;
+  }
+}
+/* @media screen and (min-width: 480px) (iPhone vertikal) */
+@media screen and (min-width: 30em) {
+  .mobil_hidden {
+      display: block;
+  }
+
+  .spalten_33, .spalten_33_rechts, .spalten_66, .spalten_100 {
+      padding: 0 0.3em;
+  }
+  .spalten_33 {
+      width: 50%;
+  }
+  .spalten_33_werbung {
+      width: 100%;
+  }
+  .spalten_33_rechts {
+      width: 50%;
+  }
+  .content_left {
+      width: 50%;
+  }
+  .content_right {
+      width: 50%;
+      text-align: right;
+  }
+}
+/* @media screen and (min-width: 640px) */
+@media screen and (min-width: 40em) {
+  h1 {
+      font-size: 2em;
+      line-height: 1.5em;
+      margin: 0 0.5em;
+  }
+  h2 {
+      font-size: 1.5em;
+      line-height: 1.2em;
+      margin: 0 0.5em;
+  }
+  h3 {
+      font-size: 1.17em;
+      line-height: 1.3em;
+      margin: 0 0.5em;
+  }
+  h4 {
+      font-size: 1.12em;
+      line-height: 1.2em;
+      margin: 0 0.5em;
+  }
+  ul {
+      padding-left: 1em;
+  }
+  .content_navi li {
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+  .network_wraper {
+      display: block;
+  }
+  .menu_desktop {
+      display: inline-block;
+  }
+  .mobile_hidden {
+      display: block;
+  }
+  .mobile_view {
+      display: none;
+  }
+  .table_1 {
+      font-size: 1em;
+  }
+  table.table_1 td, table.table_1 th {
+      border: 1px solid #28241D;
+      padding: 3px;
+  }
+}
+/* 720px */
+@media screen and (min-width: 45em) {
+}
+/* 888px) */
+@media screen and (min-width: 55.5em) {
+}
+/* 1000px */
+
+@media screen and (min-width: 62.5em) {
+  .tablet_hidden {
+      display: block;
+  }
+  #takeover {
+      width: 980px;
+  }
+  .spalten_33 {
+      width: 32.5%;
+  }
+  .spalten_33_rechts {
+      width: 32.5%;
+  }
+  .spalten_33_werbung {
+      width: 32.5%;
+  }
+  .spalten_66 {
+      width: 65%;
+  }
+  #cookie_note {
+      width: 50%;
+      left: 25%;
+  }
+  .qc-cmp2-persistent-link {
+      right: auto !important;
+  }
+  body, html.takeover--is-visible div#takeover {
+      background-image: url(images/hintergrund-diablo.jpg);
+      background-repeat: repeat;
+      background-size: 2048px 1026px;
+  }
+}
+/* 1200px
+@media screen and (min-width: 75em) {
+}
+*/
+/* 1400px */
+@media screen and (min-width: 87.5em) {
+#takeover {
+  width: 1170px;
+}
+
+}
+
+/* 1680px
+@media screen and (min-width: 105em) {
+}
+
+*/
+/*
+*  Eight-column grid active
+*  ----------------------------------------------------------------------
+*  Margin   | #  1     2     3     4     5     6     7     8   |   Margin
+*  5.55555% | %  12.5  25.0  37.5  50.0  62.5  75.0  87.5  100 | 5.55555%
+*  ----------------------------------------------------------------------------------------------------------------------
+
+
+*  Sixteen-column grid active
+*  ----------------------------------------------------------------------------------------------------------------------
+*  Margin   | #  1     2     3     4     5     6     7     8     9     10    11    12    13    14    15    16  |   Margin
+*  5.55555% | %  6.25  12.5  18.75 25.0  31.25 37.5  43.75 50.0  56.25 62.5  68.75 75.0  81.25 87.5  93.75 100 | 5.55555%
+*/
