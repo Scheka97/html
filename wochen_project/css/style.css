@@ -4,15 +4,6 @@ di{
     border: thin solid gray;
 }
 
-/* Diablo Schrieftart */
-@font-face {
-    font-family: 'Diablo Heavy';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Diablo Heavy'), url('diablo.woff') format('woff');
-    }
-
-
 
 /* Musik aussehen */
 
@@ -23,6 +14,11 @@ di{
 
 }
 
+.fixed-musik{
+  margin-left: 40%;
+  position: fixed;
+ 
+}
 
 
   /* Style the sidebar - fixed full height */
@@ -38,39 +34,6 @@ di{
     padding-top: 16px;
   }
   
-  
-  /* Style links on mouse-over */
-  .sidebar a:hover {
-    color: #f1f1f1;
-  }
-  
-  /* Style the main content */
-  .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    padding: 0px 10px;
-  }
-  
-  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
-  @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-  }
-
-  .uberschrift {
-    text-align: center;
-    color: white;
-  }
-
-  
-
-a {
-    color:#fff;
-    font-weight: bolder;
-}
-a:visited {
-    color:#fff;
-}
-
 
 
 
@@ -131,4 +94,75 @@ input[type="text"], input[type="password"] {
 
 .fixed {
   position: fixed;
+}
+
+.container-md{
+
+  text-align: center;
+  color: orange;
+  background-color: rgba(2, 2, 2, 0.589);
+}
+
+/* Diablo Schrieftart */
+@font-face {
+  font-family: 'Diablo Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Diablo Heavy'), url('diablo.woff') format('woff');
+  }
+
+.uralt{
+  color: darkorange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.set{
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.items {
+  font-family:'Diablo Heavy';
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  
+}
+
+.title{
+  font-family:'Diablo Heavy';
+  font-size: 35px;
+  color: white;
+  text-align: center;
+
+}
+
+
+.big{
+  font-family:'Diablo Heavy';
+  font-size: 42px;
+  color: white;
+  text-align: center;
+
+}
+
+
+/* Bilder anpassung */
+
+.navbarbild{
+  width: 104px;
+  height: 90px;
+
+}
+
+.galbild{
+  width: 250px;
+  height: 250px;
+}
+
+.skills{
+  width: 50%;
+  height: auto;
 }

@@ -16,7 +16,7 @@ session_start();
    <input type="password" name="password" placeholder="Passwort"><br>
    <button type="submit" name="submit">Login</button>
 </form>
-<br>
+<br />
 <a href="signup.php">Registrieren</a>
 
 </body>
