@@ -7,6 +7,9 @@ di{
 
 /* Musik aussehen */
 
+
+
+
 .sound {
 
   text-align: center;
@@ -84,13 +87,17 @@ input[type="text"], input[type="password"] {
 }
 
 .footer {
-  background-color: rgba(0, 0, 0, 0.342);
+
+    background-color: red;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.342);
 
 
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
 }
 
 /* Navigations Leiste */
@@ -146,6 +153,10 @@ input[type="text"], input[type="password"] {
   color: white;
   text-align: center;
 
+}
+
+.white {
+    color: white;
 }
 
 
